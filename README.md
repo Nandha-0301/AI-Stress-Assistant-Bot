@@ -74,6 +74,12 @@ npm run dev
 
 📸 Screenshots
 
+![Home](Screenshots/Home.png)
+![Exercise](Screenshots/Excercise.png)
+![Progress](Screenshots/Progress.png)
+![Quotes](Screenshots/Quotes.png)
+
+
 
 
 
