@@ -44,6 +44,24 @@ State/Data Fetching: TanStack Query
 Visualization: Recharts
 Icons: Lucide React
 
+📂 Folder Structure
+
+```
+AI-Stress-Assistant-Bot/
+├── backend/                  # Python Flask Server & ML Logic
+│   ├── app.py                # Main application entry point
+│   ├── haarcascade...xml     # Face detection model
+│   ├── requirements.txt      # Backend dependencies
+│   └── .env                  # API Keys & Config (Create this)
+├── mindful-calm-buddy-main/  # React Frontend (Vite)
+│   ├── src/                  # Source code (Components, Pages, Hooks)
+│   ├── public/               # Static assets
+│   ├── package.json          # Frontend dependencies
+│   └── vite.config.ts        # Vite configuration
+├── README.md                 # Project Documentation
+└── requirements.txt          # Root dependencies reference
+
+
 ⚙️ Installation & Setup
 
 Clone the Repository
