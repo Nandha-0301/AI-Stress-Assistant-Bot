@@ -1,0 +1,34 @@
+# Flask backend core
+Flask==3.0.3
+Flask-Cors==4.0.0
+
+# AI / Emotion Detection
+deepface==0.0.92
+fer==25.10.3
+mediapipe==0.10.14
+opencv-python-headless==4.10.0.84
+pillow==10.3.0
+numpy==1.26.4
+
+# ML dependencies for DeepFace
+tensorflow==2.17.0
+keras==3.3.3
+
+# Environment and configuration
+python-dotenv==1.0.1
+
+# API integration (Groq client)
+groq==0.6.0
+httpx==0.27.2
+
+# Utility packages
+requests==2.32.3
+
+# Image processing / analysis helpers
+matplotlib==3.9.2
+
+# For handling image formats
+imutils==0.5.4
+
+# To ensure CORS & REST API compatibility
+Werkzeug==3.0.3
