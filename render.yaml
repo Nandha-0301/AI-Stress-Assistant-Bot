@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: ai-stress-assistant-backend
+    env: python
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:${PORT:-5000} --timeout 120 --workers 1 --threads 1
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: GROQ_API_KEY
+        sync: false
+      - key: TF_CPP_MIN_LOG_LEVEL
+        value: "3"
+      - key: CUDA_VISIBLE_DEVICES
+        value: ""
