@@ -1,0 +1,30 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Core Web
+Flask==3.0.3
+Flask-Cors==4.0.0
+gunicorn==22.0.0
+Werkzeug==3.0.3
+
+# PyTorch CPU explicit installs (Prevents facenet-pytorch from pulling GPU versions)
+torch
+torchvision
+
+# ML dependencies (CPU Only for Linux natively before 2.15)
+tensorflow==2.14.1
+keras==2.14.0
+
+# AI / Emotion Detection
+deepface==0.0.92
+fer==25.10.3
+mediapipe==0.10.14
+opencv-python-headless==4.10.0.84
+
+# Dependencies
+setuptools==68.2.2
+numpy==1.26.4
+pillow==10.3.0
+python-dotenv==1.0.1
+groq==0.6.0
+httpx==0.27.2
+facenet-pytorch
